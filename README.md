@@ -7,7 +7,7 @@ My pipeline consisted of 6 steps. First of all the image was smoothed to remove 
 
 There are multiple shortcomings in the few lines of code. At first there is no error handling. 
 Furthermore there is no routine in case there is an object on the same lane covering camera sight.
-Another shortcoming would be the lack of reconstruction of the lane markings and center
+In Step 4 light areas wont be set to black and cause additional houghlines. Another shortcoming would be the lack of reconstruction of the lane markings and center
 
 ## 3. Possible improvements
 
